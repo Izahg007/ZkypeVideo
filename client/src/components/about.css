@@ -1,0 +1,21 @@
+.About{
+    font-size: 1.5rem;
+    height: 50vh;
+    padding: 5%;
+    background: rgb(245, 118, 106);
+    background: radial-gradient(circle, rgba(248, 111, 98, 0.805) 0%, rgba(218, 221, 92, 0.796) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About h1{
+    background: -webkit-linear-gradient(rgb(236, 113, 65), rgb(194, 65, 112));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.About p {
+    font-weight: 600;
+    background: -webkit-linear-gradient(rgb(236, 113, 65), rgb(194, 65, 112));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

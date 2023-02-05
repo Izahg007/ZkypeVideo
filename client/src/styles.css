@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;600&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* CSS */
+button {
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  padding: 6px 14px;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif; */
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: -webkit-linear-gradient(#eee, rgb(248, 73, 57));
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5%;
+  padding-bottom:5%;
+  border: 1px rgb(207, 34, 34);
+  border-style: groove;
+  border-radius: 0.5%;
+
+}
+
+.Video {
+  border: 1px black dashed;
+  height: auto;
+  width: 100%;
+}
+
+.floatingName {
+  display: flex;
+  justify-content: center;
+}
+
+.options {
+  margin: 5%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px rgb(207, 34, 34);
+  border-style: groove;
+}
+
+.option {
+  flex: 1;
+  margin-bottom: 2%;
+}
+
+.user-list {
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Userlist h1 {
+  background: -webkit-linear-gradient(rgb(236, 113, 65), rgb(194, 65, 112));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Userlist p {
+  font-weight: 600;
+  background: -webkit-linear-gradient(rgb(236, 113, 65), rgb(194, 65, 112));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
